@@ -10,16 +10,18 @@ This is the web application for the new Recruitment Web for ISFiT25: Power.
 
 2. navigate to 'recruitement-web' i.e "cd recruitment-web"
 
-4. run "npm install"
+3. run "npm install"
 
-2. navigate to 'backend' i.e "cd backend"
+4. navigate to 'backend' i.e "cd backend"
 
-4. run "npm install"
+5. run "npm install"
 
-2. navigate to 'frontend' i.e "cd .." then "cd frontend"
+6. navigate to 'frontend' i.e "cd .." then "cd frontend"
 
-4. run "npm install"
+7. run "npm install"
 
-2. navigate to 'recruitement-web' i.e "cd recruitment-web"
+8. navigate to 'recruitement-web' i.e "cd recruitment-web"
 
-3. run 'npm run dev'
+9. run 'npm run dev'
+
+10. You might need to run this command two times if its the first time starting the project
