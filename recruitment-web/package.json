@@ -13,8 +13,8 @@
     "concurrently": "^8.2.2"
   },
   "scripts": {
-    "client": "cd client && npm run dev",
-    "server": "cd server && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "server": "cd backend && npm run dev",
     "dev": "concurrently \"npm run server\" \"npm run client\""
 }
 }
