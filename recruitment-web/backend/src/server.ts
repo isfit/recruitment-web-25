@@ -12,6 +12,12 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+//This allows you to view the request in the console
+app.use((req, res, next) => {
+  console.log(req.path, req.method);
+  next();
+});
+
 app.use("/user", userRouter);
 
 const uri: string = process.env.MONGODB_URI || "mongodb://localhost:27017";
